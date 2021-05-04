@@ -38,7 +38,7 @@ setuptools.setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
-    install_requires=['fastapi>=0.6.3,<0.7', 'uvicorn>=0.13.4,<0.14', 'mysql-connector-python>=8.0.0,<9'],
+    install_requires=['fastapi>=0.6.3,<0.7', 'uvicorn>=0.13.4,<0.14', 'mysql-connector-python>=8.0.0,<9','pyyaml>=5.4.1,<6'],
     extras_require={
         'dev': ['check-manifest'],
         # 'test': ['coverage'],
